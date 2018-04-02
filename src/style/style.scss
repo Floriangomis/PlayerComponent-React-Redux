@@ -1,0 +1,21 @@
+@import 'vars';
+@import 'components/home';
+@import 'components/page-not-found';
+@import 'components/player';
+@import 'vendor/fontello';
+
+body {
+    color: $mainColorFontColor;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+clear-fix {
+    clear: both;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
