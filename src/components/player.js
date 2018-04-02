@@ -16,11 +16,12 @@ class ConnectedPlayer extends React.Component {
     componentWillMount() {
         this.playerStore = this.props.playerStore;
     };
+
     componentDidUpdate() {
         if(this.props.currentTrack) {
             this.selectSongHandler();
         }
-    }
+    };
 
     updateAudioElementSrc = () => {
         this.player.current.src = this.props.currentTrack.link;
@@ -50,7 +51,7 @@ class ConnectedPlayer extends React.Component {
             </div>
         )
     }
-}
+};
 
 ConnectedPlayer.propTypes = {
     data: PropTypes.object

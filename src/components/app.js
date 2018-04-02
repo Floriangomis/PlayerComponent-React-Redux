@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Home from './home';
+import Home from './home/home.container';
 import Header from './header/header.container';
 import Player from './player';
 

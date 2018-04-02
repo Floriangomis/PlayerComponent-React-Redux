@@ -23,7 +23,7 @@ class ConnectedTrack extends React.Component {
             </React.Fragment>
         )
     }
-}
+};
 
 const Track = connect(null, mapDispatchToProps)(ConnectedTrack);
 
