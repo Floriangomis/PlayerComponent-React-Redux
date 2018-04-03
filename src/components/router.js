@@ -10,7 +10,6 @@ import App from '../components/app';
 import PageNotFound from '../components/page-not-found';
 
 const Router = () => { 
-
     return (
         <Provider store={ createStore(playerReducer, { data: mockData, currentTrack: undefined } ) }>
             <BrowserRouter>

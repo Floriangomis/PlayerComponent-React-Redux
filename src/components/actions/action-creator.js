@@ -3,4 +3,4 @@ export const selectTrack = (track) => {
         type: 'SELECT_TRACK',
         payload: track
     }
-}
+};

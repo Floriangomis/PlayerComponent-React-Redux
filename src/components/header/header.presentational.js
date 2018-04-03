@@ -1,17 +1,16 @@
 import React from 'react';
-import { headerContainerStyle, headerWrapperStyle, titleStyle, subtitleStyle, iconLinkStyle } from './header.style';
 
 const HeaderPresentational = (props) => {
     const { title, subtitle, btns } = props; 
     return (
-        <header style={headerContainerStyle}>
-            <div style={headerWrapperStyle}>
+        <header className='header-container'>
+            <div className='header-wrapper'>
                 <a href="/">
-                    <h1  style={titleStyle}>
+                    <h1  className='title'>
                         { title }
                     </h1>
                 </a>
-                <div style={subtitleStyle}>
+                <div className='subtitle'>
                     { subtitle }
                 </div>
                 <div>
@@ -19,7 +18,7 @@ const HeaderPresentational = (props) => {
                         btns.map( (btn, index) => {
                             return ( 
                                 <a key={index} href={btn.link}>
-                                    <i className={btn.icon} style={iconLinkStyle}> </i> 
+                                    <i className={btn.icon + ' icon'} > </i> 
                                 </a>
                             )
                         })

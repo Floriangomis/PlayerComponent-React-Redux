@@ -1,0 +1,677 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Render a Header 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "btns": Array [
+        Object {
+          "icon": "icon-twitter-squared",
+          "link": "https://twitter.com/_Otpo",
+          "value": "Twitter",
+        },
+        Object {
+          "icon": "icon-spotify",
+          "link": "Mon spotify",
+          "value": "spotify",
+        },
+        Object {
+          "icon": "icon-instagram",
+          "link": "https://www.instagram.com/f_gomis/",
+          "value": "instagram",
+        },
+      ],
+      "subtitle": "One drop everyday",
+      "title": "O T P O",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "btns": Array [
+          Object {
+            "icon": "icon-twitter-squared",
+            "link": "https://twitter.com/_Otpo",
+            "value": "Twitter",
+          },
+          Object {
+            "icon": "icon-spotify",
+            "link": "Mon spotify",
+            "value": "spotify",
+          },
+          Object {
+            "icon": "icon-instagram",
+            "link": "https://www.instagram.com/f_gomis/",
+            "value": "instagram",
+          },
+        ],
+        "subtitle": "One drop everyday",
+        "title": "O T P O",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Header Render a Header Presentational 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HeaderPresentational
+    btns={
+        Array [
+            Object {
+              "icon": "icon-twitter-squared",
+              "link": "https://twitter.com/_Otpo",
+              "value": "Twitter",
+            },
+            Object {
+              "icon": "icon-spotify",
+              "link": "Mon spotify",
+              "value": "spotify",
+            },
+            Object {
+              "icon": "icon-instagram",
+              "link": "https://www.instagram.com/f_gomis/",
+              "value": "instagram",
+            },
+          ]
+    }
+    subtitle="One drop everyday"
+    title="O T P O"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="header-wrapper"
+>
+        <a
+                href="/"
+        >
+                <h1
+                        className="title"
+                >
+                        O T P O
+                </h1>
+        </a>
+        <div
+                className="subtitle"
+        >
+                One drop everyday
+        </div>
+        <div>
+                <a
+                        href="https://twitter.com/_Otpo"
+                >
+                        <i
+                                className="icon-twitter-squared icon"
+                        >
+                                 
+                        </i>
+                </a>
+                <a
+                        href="Mon spotify"
+                >
+                        <i
+                                className="icon-spotify icon"
+                        >
+                                 
+                        </i>
+                </a>
+                <a
+                        href="https://www.instagram.com/f_gomis/"
+                >
+                        <i
+                                className="icon-instagram icon"
+                        >
+                                 
+                        </i>
+                </a>
+        </div>
+</div>,
+      "className": "header-container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            href="/"
+>
+            <h1
+                        className="title"
+            >
+                        O T P O
+            </h1>
+</a>,
+          <div
+            className="subtitle"
+>
+            One drop everyday
+</div>,
+          <div>
+            <a
+                        href="https://twitter.com/_Otpo"
+            >
+                        <i
+                                    className="icon-twitter-squared icon"
+                        >
+                                     
+                        </i>
+            </a>
+            <a
+                        href="Mon spotify"
+            >
+                        <i
+                                    className="icon-spotify icon"
+                        >
+                                     
+                        </i>
+            </a>
+            <a
+                        href="https://www.instagram.com/f_gomis/"
+            >
+                        <i
+                                    className="icon-instagram icon"
+                        >
+                                     
+                        </i>
+            </a>
+</div>,
+        ],
+        "className": "header-wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1
+              className="title"
+>
+              O T P O
+</h1>,
+            "href": "/",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "O T P O",
+              "className": "title",
+            },
+            "ref": null,
+            "rendered": "O T P O",
+            "type": "h1",
+          },
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "One drop everyday",
+            "className": "subtitle",
+          },
+          "ref": null,
+          "rendered": "One drop everyday",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="https://twitter.com/_Otpo"
+>
+                <i
+                                className="icon-twitter-squared icon"
+                >
+                                 
+                </i>
+</a>,
+              <a
+                href="Mon spotify"
+>
+                <i
+                                className="icon-spotify icon"
+                >
+                                 
+                </i>
+</a>,
+              <a
+                href="https://www.instagram.com/f_gomis/"
+>
+                <i
+                                className="icon-instagram icon"
+                >
+                                 
+                </i>
+</a>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="icon-twitter-squared icon"
+>
+                   
+</i>,
+                "href": "https://twitter.com/_Otpo",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " ",
+                  "className": "icon-twitter-squared icon",
+                },
+                "ref": null,
+                "rendered": " ",
+                "type": "i",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="icon-spotify icon"
+>
+                   
+</i>,
+                "href": "Mon spotify",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " ",
+                  "className": "icon-spotify icon",
+                },
+                "ref": null,
+                "rendered": " ",
+                "type": "i",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="icon-instagram icon"
+>
+                   
+</i>,
+                "href": "https://www.instagram.com/f_gomis/",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " ",
+                  "className": "icon-instagram icon",
+                },
+                "ref": null,
+                "rendered": " ",
+                "type": "i",
+              },
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "header",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="header-wrapper"
+>
+          <a
+                    href="/"
+          >
+                    <h1
+                              className="title"
+                    >
+                              O T P O
+                    </h1>
+          </a>
+          <div
+                    className="subtitle"
+          >
+                    One drop everyday
+          </div>
+          <div>
+                    <a
+                              href="https://twitter.com/_Otpo"
+                    >
+                              <i
+                                        className="icon-twitter-squared icon"
+                              >
+                                         
+                              </i>
+                    </a>
+                    <a
+                              href="Mon spotify"
+                    >
+                              <i
+                                        className="icon-spotify icon"
+                              >
+                                         
+                              </i>
+                    </a>
+                    <a
+                              href="https://www.instagram.com/f_gomis/"
+                    >
+                              <i
+                                        className="icon-instagram icon"
+                              >
+                                         
+                              </i>
+                    </a>
+          </div>
+</div>,
+        "className": "header-container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="/"
+>
+              <h1
+                            className="title"
+              >
+                            O T P O
+              </h1>
+</a>,
+            <div
+              className="subtitle"
+>
+              One drop everyday
+</div>,
+            <div>
+              <a
+                            href="https://twitter.com/_Otpo"
+              >
+                            <i
+                                          className="icon-twitter-squared icon"
+                            >
+                                           
+                            </i>
+              </a>
+              <a
+                            href="Mon spotify"
+              >
+                            <i
+                                          className="icon-spotify icon"
+                            >
+                                           
+                            </i>
+              </a>
+              <a
+                            href="https://www.instagram.com/f_gomis/"
+              >
+                            <i
+                                          className="icon-instagram icon"
+                            >
+                                           
+                            </i>
+              </a>
+</div>,
+          ],
+          "className": "header-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h1
+                className="title"
+>
+                O T P O
+</h1>,
+              "href": "/",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "O T P O",
+                "className": "title",
+              },
+              "ref": null,
+              "rendered": "O T P O",
+              "type": "h1",
+            },
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "One drop everyday",
+              "className": "subtitle",
+            },
+            "ref": null,
+            "rendered": "One drop everyday",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  href="https://twitter.com/_Otpo"
+>
+                  <i
+                                    className="icon-twitter-squared icon"
+                  >
+                                     
+                  </i>
+</a>,
+                <a
+                  href="Mon spotify"
+>
+                  <i
+                                    className="icon-spotify icon"
+                  >
+                                     
+                  </i>
+</a>,
+                <a
+                  href="https://www.instagram.com/f_gomis/"
+>
+                  <i
+                                    className="icon-instagram icon"
+                  >
+                                     
+                  </i>
+</a>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <i
+                    className="icon-twitter-squared icon"
+>
+                     
+</i>,
+                  "href": "https://twitter.com/_Otpo",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " ",
+                    "className": "icon-twitter-squared icon",
+                  },
+                  "ref": null,
+                  "rendered": " ",
+                  "type": "i",
+                },
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <i
+                    className="icon-spotify icon"
+>
+                     
+</i>,
+                  "href": "Mon spotify",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " ",
+                    "className": "icon-spotify icon",
+                  },
+                  "ref": null,
+                  "rendered": " ",
+                  "type": "i",
+                },
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <i
+                    className="icon-instagram icon"
+>
+                     
+</i>,
+                  "href": "https://www.instagram.com/f_gomis/",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " ",
+                    "className": "icon-instagram icon",
+                  },
+                  "ref": null,
+                  "rendered": " ",
+                  "type": "i",
+                },
+                "type": "a",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "header",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
