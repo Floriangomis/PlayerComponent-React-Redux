@@ -11,7 +11,18 @@ import PageNotFound from '../components/page-not-found';
 
 const Router = () => { 
     return (
-        <Provider store={ createStore(playerReducer, { data: mockData, currentTrack: undefined } ) }>
+        <Provider store={ createStore( playerReducer, { 
+            data: mockData,
+            currentTrack: undefined,
+            playerState: {
+                duration: 0,
+                currentTime: 0,
+                seeking: false,
+                playing: false,
+                volume: 1,
+                isMuted: false
+            }
+        })}>
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={ App } />

@@ -4,3 +4,12 @@ export const selectTrack = (track) => {
         payload: track
     }
 };
+
+export const updateCurrentTime = (currentTime) => {
+    return {
+        type: 'UPDATE_CURRENT_TIME',
+        payload: { 
+            currentTime: currentTime 
+        }
+    }
+};

@@ -19,7 +19,7 @@ const HomeContainer = (props) => {
 
 HomeContainer.propTypes = {
     data: PropTypes.array
-  };
+};
 
 const Home = connect(mapStateToProps)(HomeContainer);
 

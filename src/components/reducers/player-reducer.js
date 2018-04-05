@@ -10,6 +10,14 @@ export const playerReducer = (state = {}, action) => {
                     title: action.payload.title
                 }
             };
+        case 'UPDATE_CURRENT_TIME':
+            return {
+                ...state,
+                playerState: {
+                    ...state.playerState,
+                    currentTime: action.payload.currentTime
+                }
+            };
         default:
             return state;
     }

@@ -7,7 +7,7 @@ const mapDispatchToProps = dispatch => {
     return {
       selectTrack: track => dispatch(selectTrack(track))
     };
-  };
+};
 
 const ConnectedTrack = (props) => {
     const { track } = props;
